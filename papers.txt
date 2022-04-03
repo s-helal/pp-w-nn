@@ -1,0 +1,8 @@
+#INTERLEAVING/bottleneck distance
+https://arxiv.org/pdf/2201.13012.pdf
+
+#Shift-Invariant Bottleneck Distance
+https://donsheehy.net/research/cavanna18computing.pdf
+
+#Dilation invariant bottleneck distance
+https://arxiv.org/pdf/2104.01672.pdf
