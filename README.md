@@ -18,10 +18,11 @@ Summary in chronological order
 * `old_NN.ipynb`: nonlinear projection pursuit with neural networks
   - building a `tensorflow` neural network to project 3D data to 2D 
   - implementing a `customAccuracy()` function in the network to incorporate the `RipsModel()` class from `Autogradient.ipynb`
-  - tuning network by testing different learning rates and depths
-  - trying to mitigate poor performance by scaling the data (whitening and log scaling)
+  - trying to mitigate poor performance by scaling the data (log scaling)
   - testing on different datasets (1 cylinder, 2 cylinders and swiss roll)
-* `NN.ipynb`: continuation of parameter tuning in `old_NN.ipynb`
+* `NN.ipynb`: parameter tuning
+  - tuning network by testing different learning rates and depths
+  - trying to mitigate poor performance by scaling the data (whitening and normalizing)
   - testing various scaling options and modifying `RipsModel()` to fix poor performance on extreme-scale data
   - tuning parameters with grid search (learning rate, activation, number of layers, and weight initializers)
 * `Shift_Inv_Dist.ipynb`: implementing scale (dilation) and shift-invariant bottleneck distance
